@@ -63,12 +63,7 @@ function Child({ formData, onEdit, onDelete, onSubmit, editIndex }) {
                     <button className='btn btn-primary me-2 mt-2' onClick={() => onEdit(index)}>Edit</button>
                     <button className='btn btn-primary me-2 mt-2' onClick={() => onDelete(index)}>Delete</button>
                 </div>
-            
-            
-           
-            
-            
-            
+                  
             
           ))}
         </div>

@@ -17,13 +17,13 @@ function Parent() {
 
   const handleSubmit = (newEntry) => {
     if (editIndex !== null) {
-      // Editing an existing entry
+      
       const newFormData = [...formData];
       newFormData[editIndex] = newEntry;
       setFormData(newFormData);
       setEditIndex(null);
     } else {
-      // Adding a new entry
+      
       setFormData([...formData, newEntry]);
     }
   };
